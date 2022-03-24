@@ -111,18 +111,6 @@ img {
     object-fit: cover;
 }
 
-/* === Media (SMALL DEVICES) === */
-
-@media screen and (max-width: 600px) {
-    .container {
-        width: var(--container-width-sm);
-    }
-
-    section > h2 {
-        margin-bottom: 2rem;
-    }
-}
-
 /* === Media (MEDIUM DEVICES) === */
 
 @media screen and (max-width: 1024px) {
@@ -132,5 +120,17 @@ img {
 
     section {
         margin-top: 6rem;
+    }
+}
+
+/* === Media (SMALL DEVICES) === */
+
+@media screen and (max-width: 600px) {
+    .container {
+        width: var(--container-width-sm);
+    }
+
+    section > h2 {
+        margin-bottom: 2rem;
     }
 }
